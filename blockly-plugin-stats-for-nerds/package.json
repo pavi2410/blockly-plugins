@@ -1,6 +1,6 @@
 {
   "name": "blockly-plugin-stats-for-nerds",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Blockly plugin that displays workspace Stats For Nerds!",
   "scripts": {
     "audit:fix": "blockly-scripts auditFix",
@@ -11,23 +11,21 @@
     "start": "blockly-scripts start",
     "test": "blockly-scripts test"
   },
-  "main": "./dist/index.js",
-  "module": "./src/index.js",
-  "unpkg": "./dist/index.js",
-  "author": "",
+  "module": "src/index.js",
+  "author": "pavi2410",
   "keywords": [
     "blockly",
     "blockly-plugin",
     "stats-for-nerds"
   ],
-  "homepage": "https://github.com/pavi2410/blockly-plugin-stats-for-nerds/tree/master/stats-for-nerds#readme",
+  "homepage": "https://github.com/pavi2410/blockly-plugins/blockly-plugin-stats-for-nerds",
   "bugs": {
-    "url": "https://github.com/pavi2410/blockly-plugin-stats-for-nerds/issues"
+    "url": "https://github.com/pavi2410/blockly-plugins/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavi2410/blockly-plugin-stats-for-nerds.git",
-    "directory": "stats-for-nerds"
+    "url": "git+https://github.com/pavi2410/blockly-plugins.git",
+    "directory": "blockly-plugin-stats-for-nerds"
   },
   "license": "Apache-2.0",
   "directories": {
@@ -39,12 +37,12 @@
     "src"
   ],
   "devDependencies": {
-    "blockly": "^10.4.2",
-    "@blockly/dev-scripts": "^3.1.1",
-    "@blockly/dev-tools": "^7.1.6"
+    "blockly": "^11.0.0",
+    "@blockly/dev-scripts": "^4.0.0",
+    "@blockly/dev-tools": "^8.0.0"
   },
   "peerDependencies": {
-    "blockly": "^10.4.2"
+    "blockly": "^11.0.0"
   },
   "publishConfig": {},
   "eslintConfig": {

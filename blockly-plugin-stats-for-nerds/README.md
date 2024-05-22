@@ -14,11 +14,11 @@ npm install blockly-plugin-stats-for-nerds
 
 ```js
 import * as Blockly from 'blockly';
-import { StatsForNerdsPlugin } from 'blockly-plugin-stats-for-nerds';
+import {StatsForNerdsPlugin} from 'blockly-plugin-stats-for-nerds/src/index';
 
 // Inject Blockly.
 const workspace = Blockly.inject('blocklyDiv', {
-  toolbox: toolboxCategories,
+    toolbox: toolboxCategories,
 });
 
 // Initialize plugin.

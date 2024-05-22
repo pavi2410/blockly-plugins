@@ -10,7 +10,7 @@
 
 import * as Blockly from 'blockly';
 import {toolboxCategories, createPlayground} from '@blockly/dev-tools';
-import {StatsForNerdsPlugin} from '../src/index';
+import {StatsForNerdsPlugin} from '../src';
 
 /**
  * Create a workspace.
