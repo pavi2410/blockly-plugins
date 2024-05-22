@@ -2,7 +2,7 @@
 
 A [Blockly](https://www.npmjs.com/package/blockly) plugin that displays workspace Stats For Nerds!
 
-<img width="864" alt="image" src="https://github.com/pavi2410/blockly-plugin-stats-for-nerds/assets/28837746/bea8e36d-3a63-4737-b415-cc2432f25c33">
+![GH7sBlWasAE7kyM](https://github.com/pavi2410/blockly-plugins/assets/28837746/c3e15e0d-20cb-4bd1-8239-2c669db183d1)
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install blockly-plugin-stats-for-nerds
 
 ```js
 import * as Blockly from 'blockly';
-import {StatsForNerdsPlugin} from 'blockly-plugin-stats-for-nerds/src/index';
+import {StatsForNerdsPlugin} from 'blockly-plugin-stats-for-nerds';
 
 // Inject Blockly.
 const workspace = Blockly.inject('blocklyDiv', {
